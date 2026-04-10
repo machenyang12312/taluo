@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function EntryPage() {
   return (
-    <main className="min-h-screen bg-brand.midnight text-slate-100">
+    <main className="min-h-screen bg-slate-950 text-slate-100">
       <div className="relative flex min-h-screen flex-col items-center justify-center px-6 py-12">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(50,214,255,0.12),_transparent_25%),radial-gradient(circle_at_bottom_right,_rgba(174,85,255,0.12),_transparent_25%)]" />
         <div className="relative z-10 flex w-full max-w-3xl flex-col items-center gap-6 rounded-[40px] border border-white/10 bg-slate-950/70 p-10 shadow-[0_0_90px_rgba(0,0,0,0.5)] backdrop-blur-xl">

@@ -662,7 +662,7 @@ export default function HomePage() {
   }
 
   const handleShare = async () => {
-    const title = spreadMode === 'three' ? '三牌占卜结果' : '凯尔特十字占卜结果'
+    const title = spreadMode === 'classic' ? '三牌占卜结果' : '凯尔特十字占卜结果'
     const intro = `塔罗占卜结果：${title}\n\n`
     const body = selected
       .map((item) => `【${item.position}】 ${item.card.name} (${item.orientation === 'upright' ? '正位' : '逆位'}) - ${item.orientation === 'upright' ? item.card.upright : item.card.reversed}`)
